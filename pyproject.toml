@@ -13,6 +13,12 @@ dependencies = [
     "keyring>=25.6.0",
     "pip>=24.3.1",
 ]
+classifiers = [
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+"homepage" = "https://github.com/SimonDelmas/dependency-collector"
 
 [project.scripts]
 collect = "dependency_collector.cli:collect"
